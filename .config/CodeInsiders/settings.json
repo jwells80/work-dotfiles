@@ -1,0 +1,130 @@
+{
+    "yaml.schemas": {
+        "file:///home/jasonw/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "git.autofetch": true,
+    "editor.wordWrap": "on",
+    "git.confirmSync": false,
+    "workbench.colorCustomizations": {
+        "menu.background": "#000",
+        "menu.foreground": "#3bc910cc",
+        "statusBar.background": "#22861e",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#fa000077",
+        "statusBar.debuggingForeground": "#ffffff",
+        "statusBar.foreground": "#ffffff",
+        "editorLineNumber.foreground": "#22861e",
+        "editorLineNumber.activeForeground": "#ff0000"
+    },
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "python.analysis.importFormat": "relative",
+    "auto-close-tag.SublimeText3Mode": true,
+    "materialTheme.accent": "Indigo",
+    "editor.minimap.autohide": true,
+    "atlascode.bitbucket.issues.createJiraEnabled": true,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "296ce621-3b03-4c43-a0e8-9f501c87d66d",
+            "enabled": true,
+            "name": "Jira Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "6fd23ecf-21cc-4704-9c0a-5148aa9a6512",
+            "monitor": true
+        }
+    ],
+    "workbench.editor.tabCloseButton": "left",
+    "files.autoSave": "onFocusChange",
+    "git.postCommitCommand": "push",
+    "html.format.templating": true,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font Mono",
+    "terminal.integrated.cursorStyle": "line",
+    "gitPrefix.pattern": ".*(WD-\\d+).*",
+    "gitPrefix.replacement": "$1 ",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.tabs.title": "${process} ",
+    "terminal.integrated.gpuAcceleration": "on",
+    "debug.toolBarLocation": "docked",
+    "telemetry.telemetryLevel": "off",
+    "editor.minimap.renderCharacters": false,
+    "files.autoGuessEncoding": true,
+    "window.menuBarVisibility": "compact",
+    "debug.console.fontFamily": "Source Code Pro",
+    "debug.console.fontSize": 16,
+    "files.watcherExclude": {
+        "**/.venv/**": true,
+        "**/media/**": true
+    },
+    "highlight-matching-tag.highlightFromContent": true,
+    "highlight-matching-tag.highlightSelfClosing": true,
+    "editor.codeActionsOnSave": {},
+    "coverage-gutters.coverageFileNames": [
+        "coverage.lcov",
+        "lcov.info",
+        "cov.xml",
+        "coverage.xml",
+        "jacoco.xml",
+        "coverage.cobertura.xml"
+    ],
+    "coverage-gutters.coverageBaseDir": "**",
+    "files.associations": {
+        "**/templates/**/*.html": "django-html"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[django-html]": {},
+    "git.enableSmartCommit": true,
+    "editor.inlineSuggest.enabled": true,
+    "search.showLineNumbers": true,
+    "zenMode.hideLineNumbers": false,
+    "notebook.lineNumbers": "on",
+    "keyboard.dispatch": "keyCode",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": false,
+        "markdown": true
+    },
+    "pop-icon-theme.folders.color": "#7cb342",
+    "pop-icon-theme.folders.theme": "specific",
+    "editor.indentSize": "tabSize",
+    "coverage-gutters.showRulerCoverage": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "alpine-intellisense.settings.languageScopes": "html,django-html,php",
+    "terminal.integrated.cursorWidth": 4,
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+    "terminal.integrated.tabs.defaultIcon": "terminal-debian",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "variable.language.this.js",
+                "settings": {
+                    "foreground": "#5579a8"
+                }
+            }
+        ]
+    }
+}
