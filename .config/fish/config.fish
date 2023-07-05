@@ -1,17 +1,7 @@
 export VIRTUALFISH_ACTIVATION_FILE=.vfenv
 if status is-interactive
 end
-    # Commands to run in interactive sessions can go here
-
-#alias ls="exa -ag --group-directories-first --icons"
-#alias la="exa -alh --group-directories-first --icons"
-alias check="git ls-files -v|grep '^S'"
-function skip
-	command git update-index --skip-worktree $argv;  git status;
-end
-function unskip
-	command git update-index --no-skip-worktree $argv;  git status; 
-end
+# Auto activate python virtual environment.  Must be a git repo.
 function __auto_source_venv --on-variable PWD --description "Activate/Deactivate virtualenv on directory change"
   status --is-command-substitution; and return
 
@@ -37,25 +27,12 @@ function __auto_source_venv --on-variable PWD --description "Activate/Deactivate
 end
 export COMPOSE_PROFILES=development
 export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
-#alias dcu="docker-compose up"
-#alias dcud="docker-compose up -d"
-#alias dcs="docker-compose stop"
-#alias dcd="docker-compose down"
-function dexbash
-	command docker exec -it $argv bash; 
-end
-function dlog
-	command docker logs -f $argv;
-end
-export PATH="$HOME/.local/bin:$PATH"
-source /home/jasonw/.alias.fish
-#source /home/jasonw/.venv.act.fish
-#starship init fish | source
+
 function fish_greeting
 # 	fortune
 end
-
+# run fastfetch only if not in VS Code
 if [ "$TERM_PROGRAM" != "vscode" ]
-  fastfetch --logo ~/.config/fastfetch/kubuntu.png
+  fastfetch
 end
 
