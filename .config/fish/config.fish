@@ -28,6 +28,8 @@ end
 export COMPOSE_PROFILES=development
 export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 
+source /home/$USER/.alias.fish
+
 function fish_greeting
 # 	fortune
 end
