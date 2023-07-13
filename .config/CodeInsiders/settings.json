@@ -1,6 +1,6 @@
 {
     "yaml.schemas": {
-        "file:///home/jasonw/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///home/$USER/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.startupEditor": "none",

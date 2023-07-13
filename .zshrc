@@ -26,7 +26,7 @@ eval "$(pyenv init -)"
 # Virtualevnwrapper settings:
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=$HOME/.virtualenv
-export VIRTUALENVWRAPPER_VIRTUALENV=/home/jasonw/.local/bin/virtualenv
+export VIRTUALENVWRAPPER_VIRTUALENV=/home/$USER/.local/bin/virtualenv
 source ~/.local/bin/virtualenvwrapper.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
