@@ -33,6 +33,6 @@ function fish_greeting
 end
 # run fastfetch only if not in VS Code
 if [ "$TERM_PROGRAM" != "vscode" ]
-  fastfetch
+  # fastfetch
 end
 
