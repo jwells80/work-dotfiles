@@ -25,9 +25,12 @@ function __auto_source_venv --on-variable PWD --description "Activate/Deactivate
     deactivate
   end
 end
-export COMPOSE_PROFILES=development
-export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
-export PATH=/home/$USER/.local/bin:$PATH
+set -x COMPOSE_PROFILES "development"
+alias bat="batcat"
+set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+
+# set -x MANPAGER "sh -c 'col -bx | batcat -l man -p'"
+set -x PATH /home/$USER/.local/bin:$PATH
 source /home/$USER/.alias.fish
 
 function fish_greeting
