@@ -26,3 +26,4 @@ alias cat="batcat"
 # various aliases
 alias icat="kitty +kitten icat"
 alias vim="nvim"
+alias s="kitty +kitten ssh"

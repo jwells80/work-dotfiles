@@ -70,4 +70,4 @@ function pysetup
     source $argv/bin/activate.fish
 end
 
-
+alias s="kitty +kitten ssh"
