@@ -1,0 +1,189 @@
+{
+    "yaml.schemas": {
+        "file: ///home/jason/.vscode/extensions/atlassian.atlascode-3.0.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": true,
+    "workbench.startupEditor": "none",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "git.autofetch": true,
+    "editor.wordWrap": "on",
+    "git.confirmSync": false,
+    "workbench.colorCustomizations": {
+        "menu.background": "#000",
+        "menu.foreground": "#3bc910cc",
+        "statusBar.background": "#1b8600",
+        "statusBar.noFolderBackground": "#8FBCBB",
+        "statusBar.debuggingBackground": "#ff0000",
+        "editorLineNumber.foreground": "#109903",
+        "statusBar.foreground": "#000",
+        "statusBar.debuggingForeground": "#fff",
+        "statusBar.debuggingBorder": "#fff",
+        "tab.activeBackground": "#043500",
+        "tab.activeBorder": "#ff0000"
+    },
+    "vim.neovimUseConfigFile": true,
+    "vim.neovimConfigPath": "/home/jason/.config/nvim/init.lua",
+    "editor.fontFamily": "'JetBrainsMono NF', 'JetBrainMono Nerd Font','monospace', monospace",
+    "python.analysis.importFormat": "relative",
+    "auto-close-tag.SublimeText3Mode": true,
+    "material-icon-theme.activeIconPack": "vue_vuex",
+    "editor.minimap.autohide": true,
+    "atlascode.bitbucket.issues.createJiraEnabled": true,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "296ce621-3b03-4c43-a0e8-9f501c87d66d",
+            "enabled": true,
+            "name": "My mtcholsters Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "6fd23ecf-21cc-4704-9c0a-5148aa9a6512",
+            "monitor": true
+        },
+        {
+            "id": "30b2a254-ee7c-4b01-8fbe-abcc06206de7",
+            "siteId": "6fd23ecf-21cc-4704-9c0a-5148aa9a6512",
+            "name": "To Do",
+            "query": "project = 'Web Development' and status = 'To Do'",
+            "enabled": true,
+            "monitor": true
+        },
+        {
+            "id": "7e5331ae-6a2f-4352-b4d1-d81ba2a93d46",
+            "siteId": "6fd23ecf-21cc-4704-9c0a-5148aa9a6512",
+            "name": "In Progress",
+            "query": "project = 'Web Development' and status = 'In Progress'",
+            "enabled": true,
+            "monitor": true
+        },
+        {
+            "id": "6bb86f1a-656c-4637-9c14-85bf343fb47c",
+            "siteId": "6fd23ecf-21cc-4704-9c0a-5148aa9a6512",
+            "name": "Blocked",
+            "query": "project = 'Web Development' and status = 'Blocked",
+            "enabled": true,
+            "monitor": true
+        },
+        {
+            "id": "5ae53b5b-39b4-49fc-91d1-35391066b8e1",
+            "siteId": "6fd23ecf-21cc-4704-9c0a-5148aa9a6512",
+            "name": "Needs Changes",
+            "query": "project = 'Web Development' and status = 'Needs Changes'",
+            "enabled": true,
+            "monitor": true
+        },
+        {
+            "id": "2439cf20-ae0f-491a-bca1-d37b1eb38343",
+            "siteId": "6fd23ecf-21cc-4704-9c0a-5148aa9a6512",
+            "name": "Code Review",
+            "query": "project = 'Web Development' and status = 'Code Review'",
+            "enabled": true,
+            "monitor": true
+        }
+    ],
+    "workbench.editor.tabCloseButton": "left",
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "MonoBlack",
+    "git.postCommitCommand": "push",
+    "html.format.templating": true,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.fontFamily": "'JetBrainsMono NF', 'JetBrainsMono Nerd Font'",
+    "terminal.integrated.cursorStyle": "line",
+    "gitPrefix.pattern": ".*(WD-d+).*",
+    "gitPrefix.replacement": "$1 ",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.tabs.title": "${process} ",
+    "terminal.integrated.gpuAcceleration": "on",
+    "debug.toolBarLocation": "commandCenter",
+    "telemetry.telemetryLevel": "off",
+    "editor.minimap.renderCharacters": false,
+    "files.autoGuessEncoding": true,
+    "debug.console.fontFamily": "'JetBrainsMono NF'",
+    "debug.console.fontSize": 16,
+    "files.watcherExclude": {
+        "**/.venv/**": true,
+        "**/media/**": true
+    },
+    "highlight-matching-tag.highlightFromContent": true,
+    "highlight-matching-tag.highlightSelfClosing": true,
+    "editor.codeActionsOnSave": { 
+        
+    },
+    "coverage-gutters.coverageFileNames": [
+        "coverage.lcov","lcov.info","cov.xml","coverage.xml","jacoco.xml","coverage.cobertura.xml"
+    ],
+    "coverage-gutters.coverageBaseDir": "**",
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showGutterCoverage": false,
+    "files.associations": {
+        "**/templates/**/*.html": "django-html",
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.rulers": [
+        {
+            "color": "#5f5f5f","column": 120,
+        }
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.fixAll": [
+        "source.unusedImports",
+        ],
+        "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+            "source.sortImports": true,
+            "source.fixAll": true,
+        },
+        "editor.rulers": [
+            {
+                "color": "#5f5f5f",
+                "column": 88
+            },
+        ],
+    },
+    "[django-html]": {},
+    "git.enableSmartCommit": true,
+    "editor.inlineSuggest.enabled": true,
+    "search.showLineNumbers": true,
+    "zenMode.hideLineNumbers": false,
+    "notebook.lineNumbers": "on",
+    "keyboard.dispatch": "keyCode",
+    "codestream.serverUrl": "https: //codestream-us1.service.newrelic.com",
+    "atlascode.jira.enabled": true,
+    "alpine-intellisense.settings.languageScopes": "html, django-html, php, twig",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "atlascode.bitbucket.explorer.enabled": true,
+    "codestream.email": "jason@mtcholsters.com",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "editor.lineNumbers": "on",
+    "indentRainbow.colors": [
+        "rgba(239, 71, 111,0.15)",
+        "rgba(255, 209, 102,0.15)",
+        "rgba(6, 214, 160, 0.15)",
+        "rgba(17, 138, 178,0.15)",
+        "rgba(7, 59, 76,0.15)",
+        "rgba(7, 59, 76,0.1)",
+        "rgba(7, 59, 76,0.05)",
+        "rgba(7, 59, 76,0.025)"
+    ],
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "isort.args": [
+        "--profile","black"
+    ],
+    "atlascode.bitbucket.enabled": true,
+    "docker.environment": {
+        "COMPOSE_PROFILES": "development"
+    },
+    "docwriter.hotkey.windows": "Alt + .",
+    "readable.enableAutoComplete": true
+}
